@@ -1,20 +1,65 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cheat Sheet: HTML & CSS Reference Guide</title>
+</head>
 <body>
- <header>
-  <h1>Rob Garcia</h1>
-  <p>Welcome to my website!</p>
- </header>
-  
- <main>
-  <!--About Me-->
-  <h2>About Me</h2>
-  <p class='bio'>Hello World! My name is Rob Garcia.  I am a musician, artist, builder, mechanical engineer, and educator.  I currently live and work in Charlottesville, VA.</p>
-  <p class='purpose'>In addition to introducing myself to the world, I also wanted to create a resource for my future self that includes details of the many things I am learning on my coding journey.</p>
-   
-   <img id="sonicyouth" src="https://oildale.s3.amazonaws.com/wp-content/uploads/2017/04/22030454/Sonic-Youth-resize-1.jpg" alt="">
- </main>
-  
+    <header>
+        <h1>HTML & CSS Reference Guide</h1>
+        <h2>Created by Rob Garcia</h2>
+        <nav>
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li>CSS</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--HTML Reference Section-->
+        <div id="html">
+            <ul>
+                <li>Semantic HTML</li>
+                <li>Tables</li>
+            </ul>
+        </div>
+
+        <div id="semantic">
+            <h2>Semantic HTML</h2>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Element</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td class="code">&lt;main&gt;</td>
+                      <td>Main</td>
+                      <td>Encapsulates the dominant content within a page</td>
+                    </tr>
+                    <tr>
+                      <td class="code">&lt;footer&gt;</td>
+                      <td>Footer</td>
+                      <td>Element used to contain info such as contact info, site map, page links, etc..</td>
+                    </tr>
+                </tbody>
+        </div>
+
+        <!--CSS Reference Section-->
+        <div class="css">
+            <ul>
+                <li>CSS Selectors</li>
+                <li>CSS Box Model</li>
+                <li>CSS Display & Positioning</li>
+                <li>CSS Colors</li>
+                <li>CSS Typography</li>
+            </ul>
+        </div>
+    </main>
 </body>
- 
 </html>
