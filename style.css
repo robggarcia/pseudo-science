@@ -75,12 +75,11 @@
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
-  
   }
   main .intro {
     display: block;
     height: auto;
-    width: 400px;
+    width: 300px;
     background-color: #EEC93E;
     margin: 50px auto auto 50px;
     padding: 20px;
