@@ -13,3 +13,5 @@ I am enrolled in the Full Stack Engineer course on [Codecademy](https://www.code
 In June 2022 I also plan on enrolling in other various online courses.  
 My programming interests include CI/CD (continuous integration/continuous develoment), Cloud Computing, Machine Learning, and Blockchain. 
 
+## Teaching
+I teach Engineering and AVID at Charlottesville High School. 
